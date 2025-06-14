@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Ingeniero en Sistemas</title>
+  <style>
+    :root {
+      --primary-color: #1f2937;
+      --accent-color: #3b82f6;
+      --background-color: #f9fafb;
+      --text-color: #111827;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: var(--accent-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #6b7280;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .card {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alfonso Vargas Hernández</h1>
+    <p>Ingeniero en Sistemas Computacionales</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Descarga mi CV</h2>
+      <p>Haz clic en el botón de abajo para descargar mi currículum actualizado en formato PDF.</p>
+      <a href="CVAlfonsoHernandez.pdf" class="download-btn" download>Descargar CV</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Alfonso Vargas Hernández. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
